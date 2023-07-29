@@ -4,13 +4,18 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'IMDB Social Media ',
-  description: 'Imdb social media project ',
+  title: 'IMDB Clone ',
+  description: 'Imdb clone social media project',
+  icons:{
+    icon:"/favicon.ico"
+  }
 }
+
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+     
       <body className={inter.className}>{children}</body>
     </html>
   )
