@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Results = ({results}) => {
-  console.log(results)
   return (
     <div>
       {results &&results.map((result)=>(
