@@ -4,12 +4,15 @@
 
 
 .wrapper{
-  @apply container mx-auto scroll-px-20 md:px-0;
+  @apply container mx-auto px-5 md:px-0 ;
 }
 
 
 
-/* .link-item
-:hover::after{
+/* .link-item::after{
+  @apply content-[""] absolute bottom-0 left-1/2 w-0 h-[5px] bg-sky-500
+}
+
+.link-item:hover::after{
   @apply w-full
 } */
